@@ -1,0 +1,31 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- name_entry
+- pmb_pembayaran
+- pmb_beasiswa
+- bot_challenge
+entities:
+- name
+slots:
+  name:
+    type: unfeaturized
+responses:
+  utter_greet:
+  - text: Halo! Kenalkan saya bot-up. Saya ditugaskan untuk membantu mahasiswa Univ
+      Pertamina.
+  utter_end_conversation:
+  - text: Terima kasih kak {name}. Bila ada pertanyaan lain, kak {name} dapat menghubungi
+      saya kembali:)
+  utter_name_entry:
+  - text: Boleh tau namanya kak?
+  utter_pmb_topic:
+  - text: Mau nanya apa kak {name}?
+  utter_info_pembayaran:
+  - text: "Info mengenai pembayaran bisa cek di sini yaa kak {name} \n[link](https://universitaspertamina.ac.id/pendaftaran/)"
+  utter_info_beasiswa:
+  - text: "Info mengenai beasiswa bisa cek di sini yaa kak {name} \n[link](https://universitaspertamina.ac.id/pendaftaran/)"
+  utter_iamabot:
+  - text: Saya bot-up, saya ditugaskan untuk membantu calon mahasiswa baru Univ Pertamina
