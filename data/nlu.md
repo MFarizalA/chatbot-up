@@ -20,7 +20,7 @@
 ## intent:name_entry
 - nama saya [Sahrul](name)
 - saya [Rizal](name)
-- [Rizal] (name)
+- [Rizal](name)
 
 ## intent:pmb_pembayaran
 - pembayaran
