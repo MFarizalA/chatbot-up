@@ -36,9 +36,17 @@
 ## intent:pmb_informasi_peserta
 - data diri
 - informasi diri
+- nomer
+- nomor
+- pengenal
+- identittas
 
 ## intent:pmb_pelaksanaan_seleksi
+- tempat
+- lokasi
 - tempat seleksi
+- waktu
+- jadwal
 - min nanti seleksinya dimana?
 - min lokasinya dimana?
 - kak lokasi seleksinya kira-kira dimana?
@@ -47,13 +55,29 @@
 - yang diujikan apa saja?
 - materinya apa saja?
 
-
 ## intent:pmb_beasiswa
 - beasiswa
+- schoolarship
 - ada beasiswa gak kak?
 - cara daftar beasiswa gimana yaa kak?
 - syarat daftar beasiswa bagaimana kak?
 
 ## intent:pmb_jalur_seleksi
+- jalur seleksi
+- jalur tes
+- proses selsksi
+- proses tes
+- jenis seleksi
+- cara seleksi
+- pilihan seleksi
+- bagimana seleksi nya?
+- bagaimana proses seleksi? 
 
 ## intent:pmb_prodi
+- prodi
+- jurusan
+- program studi
+- fakultas
+- jurusan apa saja min?
+- program studin apa saja kak?
+- prodi apa saja kak? 
