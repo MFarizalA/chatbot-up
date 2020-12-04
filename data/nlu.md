@@ -65,7 +65,7 @@
 ## intent:pmb_jalur_seleksi
 - jalur seleksi
 - jalur tes
-- proses selsksi
+- proses seleksi
 - proses tes
 - jenis seleksi
 - cara seleksi
