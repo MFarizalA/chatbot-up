@@ -13,6 +13,8 @@
 
 ## intent:bot_challenge
 - apakah kamu bot?
+- kamu ini apa?
+- kamu robot?
 - apakah kamu manusia?
 - apakah saya sedang berbicara dengan bot?
 - apakah saya sedang berbicara dengan manusia?
@@ -26,6 +28,9 @@
 - pembayaran
 - bayar
 - cara bayar
+- spp
+- SPP
+- Uang Sumbangan
 - metode pembayarannya gimana yaa kak?
 - info biaya kuliah liat dimana kak?
 - spp berapa kak?
@@ -55,9 +60,14 @@
 - yang diujikan apa saja?
 - materinya apa saja?
 
+## intent:city_entry
+- di [surabaya](city)
+- di kota [surabaya](city)
+- kota [surabaya](city)
+
 ## intent:pmb_beasiswa
 - beasiswa
-- schoolarship
+- scholarship
 - ada beasiswa gak kak?
 - cara daftar beasiswa gimana yaa kak?
 - syarat daftar beasiswa bagaimana kak?
