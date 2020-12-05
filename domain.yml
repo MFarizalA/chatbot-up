@@ -3,18 +3,26 @@ session_config:
   carry_over_slots_to_new_session: true
 intents:
 - greet
+- bot_challenge
 - name_entry
 - pmb_pembayaran
+- pmb_informasi_peserta
+- pmb_pelaksanaan_seleksi
+- city_entry
 - pmb_beasiswa
-- bot_challenge
+- pmb_jalur_seleksi
+- pmb_prodi
 entities:
 - name
+- city
 slots:
+  name:
+    type: unfeaturized
   name:
     type: unfeaturized
 responses:
   utter_greet:
-  - text: Halo! Kenalkan saya bot-up. Saya ditugaskan untuk membantu mahasiswa Univ
+  - text: Halo! Kenalkan saya Lisa. Saya ditugaskan untuk membantu mahasiswa Univ
       Pertamina.
   utter_end_conversation:
   - text: Terima kasih kak {name}. Bila ada pertanyaan lain, kak {name} dapat menghubungi
