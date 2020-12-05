@@ -14,6 +14,9 @@
 * name_entry
   - utter_pmb_topic
 * pmb_informasi_peserta
+  - utter_no_peserta
+  - utter_konf_no_peserta
+  - utter_informasi_peserta
   - utter_end_conversation
 
 ## sample_pmb_pembayaran
