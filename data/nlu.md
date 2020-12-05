@@ -30,6 +30,8 @@
 - cara bayar
 - spp
 - SPP
+- SPI
+- spi
 - Uang Sumbangan
 - metode pembayarannya gimana yaa kak?
 - info biaya kuliah liat dimana kak?
@@ -45,6 +47,9 @@
 - nomor
 - pengenal
 - identittas
+
+## intent:no_peserta
+- [105221000](number)
 
 ## intent:pmb_pelaksanaan_seleksi
 - tempat
