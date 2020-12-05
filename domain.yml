@@ -29,6 +29,12 @@ responses:
       saya kembali:)
   utter_name_entry:
   - text: Boleh tau namanya kak?
+  utter_no_peserta:
+  - text: Nomor peserta kak {name} apa ya?
+  utter_konf_no_peserta:
+  - text: Jadi nomor peserta kak (name) adalah (number)
+  utter_informasi_peserta:
+  - text: (Participant Information)
   utter_pmb_topic:
   - text: Mau nanya apa kak {name}?
   utter_info_pembayaran:
@@ -36,4 +42,4 @@ responses:
   utter_info_beasiswa:
   - text: "Info mengenai beasiswa bisa cek di sini yaa kak {name} \n[link](https://universitaspertamina.ac.id/pendaftaran/)"
   utter_iamabot:
-  - text: Saya bot-up, saya ditugaskan untuk membantu calon mahasiswa baru Univ Pertamina
+  - text: Saya Lisa, saya ditugaskan untuk membantu calon mahasiswa baru Univ Pertamina
