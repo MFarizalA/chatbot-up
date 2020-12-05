@@ -1,3 +1,21 @@
+## sample_pmb_pelaksanaan_seleksi
+* greet
+  - utter_greet
+  - utter_name_entry
+* name_entry
+  - utter_pmb_topic
+* pmb_pelaksanaaan_seleksi
+  - utter_end_conversation
+
+## sample_pmb_informasi_peserta
+* greet
+  - utter_greet
+  - utter_name_entry
+* name_entry
+  - utter_pmb_topic
+* pmb_informasi_peserta
+  - utter_end_conversation
+
 ## sample_pmb_pembayaran
 * greet
   - utter_greet
@@ -16,6 +34,25 @@
   - utter_pmb_topic
 * pmb_beasiswa
   - utter_info_beasiswa
+  - utter_end_conversation
+
+## pmb_jalur_seleksi
+* greet
+  - utter_greet
+  - utter_name_entry
+* name_entry
+  - utter_pmb_topic
+* pmb_jalur_seleksi
+  - utter_end_conversation
+
+## pmb_prodi
+* greet
+  - utter_greet
+  - utter_name_entry
+* name_entry
+  - utter_pmb_topic
+* pmb_pembayaran
+  - utter_info_pembayaran
   - utter_end_conversation
 
 ## bot challenge
