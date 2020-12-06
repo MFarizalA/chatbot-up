@@ -4,7 +4,8 @@
   - utter_name_entry
 * name_entry
   - utter_pmb_topic
-* pmb_pelaksanaaan_seleksi
+* pmb_pelaksanaan_seleksi
+  - utter_tempat_seleksi
   - utter_end_conversation
 
 ## sample_pmb_informasi_peserta
@@ -27,6 +28,9 @@
   - utter_pmb_topic
 * pmb_pembayaran
   - utter_info_pembayaran
+  - utter_jenis_ujian
+  - utter_gelombang_seleksi
+  - utter_spp_spi
   - utter_end_conversation
 
 ## sample_pmb_beasiswa
@@ -55,7 +59,8 @@
 * name_entry
   - utter_pmb_topic
 * pmb_pembayaran
-  - utter_info_pembayaran
+  - utter_pendidikan_terakhir
+  - utter_program_studi
   - utter_end_conversation
 
 ## bot challenge

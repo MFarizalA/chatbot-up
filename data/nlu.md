@@ -40,6 +40,19 @@
 - berapa biaya daftar yaa kak?
 - biaya kuliah gratis gak kak?
 
+## intent:test_entry
+- [tulis](test)
+- tes [tulis](test)
+- Tes [Tulis](test)
+- [rapor](test)
+- [rapot](test)
+- [Rapor](test)
+- [Rapot](test)
+
+## intent:wave_entry
+- [januari](batch)
+- [maret](batch)
+
 ## intent:pmb_informasi_peserta
 - data diri
 - informasi diri
@@ -48,8 +61,10 @@
 - pengenal
 - identittas
 
-## intent:no_peserta
+## intent:id_entry
 - [105221000](number)
+- [123](number)
+- [000000](number)
 
 ## intent:pmb_pelaksanaan_seleksi
 - tempat
@@ -96,3 +111,7 @@
 - jurusan apa saja min?
 - program studin apa saja kak?
 - prodi apa saja kak? 
+
+## intent:program_entry
+- [sma](program)
+- [SMA](program)
