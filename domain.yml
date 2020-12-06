@@ -6,19 +6,35 @@ intents:
 - bot_challenge
 - name_entry
 - pmb_pembayaran
+- test_entry
+- wave_entry
 - pmb_informasi_peserta
+- id_entry
 - pmb_pelaksanaan_seleksi
 - city_entry
 - pmb_beasiswa
 - pmb_jalur_seleksi
 - pmb_prodi
+- program_entry
 entities:
 - name
+- test
+- batch
 - city
+- number
+- program
 slots:
   name:
     type: unfeaturized
-  name:
+  test:
+    type: unfeaturized
+  batch:
+    type: unfeaturized
+  city:
+    type: unfeaturized
+  number:
+    type: unfeaturized
+  program:
     type: unfeaturized
 responses:
   utter_greet:
@@ -26,20 +42,32 @@ responses:
       Pertamina.
   utter_end_conversation:
   - text: Terima kasih kak {name}. Bila ada pertanyaan lain, kak {name} dapat menghubungi
-      saya kembali:)
+      saya kembali:).
   utter_name_entry:
   - text: Boleh tau namanya kak?
   utter_no_peserta:
   - text: Nomor peserta kak {name} apa ya?
   utter_konf_no_peserta:
-  - text: Jadi nomor peserta kak (name) adalah (number)
+  - text: Jadi nomor peserta kak {name} adalah {number}.
+  utter_jenis_ujian:
+  - text: Jenis ujian apa yang kakak ambil?
+  utter_gelombang_seleksi:
+  - text: Gelombang apa kakak ambil?
+  utter_spp_spi:
+  - text: spp 10.000.000 dan spi 15.000.000
   utter_informasi_peserta:
-  - text: (Participant Information)
+  - text: Nama kakak adalah {name} dan lokasi tesnya adalah {city}
+  utter_pendidikan_terakhir:
+  - text: Jenjang pendidikan sekarang?
+  utter_program_studi:
+  - text: Ada macam banyaknya kak.
   utter_pmb_topic:
   - text: Mau nanya apa kak {name}?
+  utter_tempat_seleksi:
+  - text: Tempat seleksi kakak dimana?
   utter_info_pembayaran:
   - text: "Info mengenai pembayaran bisa cek di sini yaa kak {name} \n[link](https://universitaspertamina.ac.id/pendaftaran/)"
   utter_info_beasiswa:
   - text: "Info mengenai beasiswa bisa cek di sini yaa kak {name} \n[link](https://universitaspertamina.ac.id/pendaftaran/)"
   utter_iamabot:
-  - text: Saya Lisa, saya ditugaskan untuk membantu calon mahasiswa baru Univ Pertamina
+  - text: Saya Lisa, saya ditugaskan untuk membantu calon mahasiswa baru Univ Pertamina.
