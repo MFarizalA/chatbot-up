@@ -14,6 +14,7 @@
 ## intent:bot_challenge
 - apakah kamu bot?
 - kamu ini apa?
+- ini apa?
 - kamu robot?
 - apakah kamu manusia?
 - apakah saya sedang berbicara dengan bot?
@@ -49,7 +50,7 @@
 - [Rapor](test)
 - [Rapot](test)
 
-## intent:wave_entry
+## intent:batch_entry
 - [januari](batch)
 - [maret](batch)
 
@@ -62,9 +63,9 @@
 - identittas
 
 ## intent:id_entry
-- [105221000](number)
-- [123](number)
-- [000000](number)
+- [105221000](id)
+- [123](id)
+- [000000](id)
 
 ## intent:pmb_pelaksanaan_seleksi
 - tempat
@@ -112,6 +113,6 @@
 - program studin apa saja kak?
 - prodi apa saja kak? 
 
-## intent:program_entry
+## intent:edu_entry
 - [sma](program)
 - [SMA](program)
