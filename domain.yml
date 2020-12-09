@@ -7,7 +7,7 @@ intents:
 - name_entry
 - pmb_pembayaran
 - test_entry
-- wave_entry
+- batch_entry
 - pmb_informasi_peserta
 - id_entry
 - pmb_pelaksanaan_seleksi
@@ -15,27 +15,33 @@ intents:
 - pmb_beasiswa
 - pmb_jalur_seleksi
 - pmb_prodi
-- program_entry
+- edu_entry
 entities:
 - name
 - test
 - batch
 - city
-- number
+- id
 - program
 slots:
   name:
     type: unfeaturized
+    influence_conversation: false
   test:
     type: unfeaturized
+    influence_conversation: false
   batch:
     type: unfeaturized
+    influence_conversation: false
   city:
     type: unfeaturized
-  number:
+    influence_conversation: false
+  id:
     type: unfeaturized
+    influence_conversation: false
   program:
     type: unfeaturized
+    influence_conversation: false
 responses:
   utter_greet:
   - text: Halo! Kenalkan saya Lisa. Saya ditugaskan untuk membantu mahasiswa Univ
@@ -58,13 +64,15 @@ responses:
   utter_informasi_peserta:
   - text: Nama kakak adalah {name} dan lokasi tesnya adalah {city}
   utter_pendidikan_terakhir:
-  - text: Jenjang pendidikan sekarang?
+  - text: Jenjang pendidikan terakhir?
   utter_program_studi:
   - text: Ada macam banyaknya kak.
   utter_pmb_topic:
   - text: Mau nanya apa kak {name}?
-  utter_tempat_seleksi:
-  - text: Tempat seleksi kakak dimana?
+  utter_kota_seleksi:
+  - text: Kota seleksi kakak dimana?
+  utter_alamat_seleksi:
+  - text: Untuk {city} beralamatkan JL. Kusuma Bangsa
   utter_info_pembayaran:
   - text: "Info mengenai pembayaran bisa cek di sini yaa kak {name} \n[link](https://universitaspertamina.ac.id/pendaftaran/)"
   utter_info_beasiswa:
